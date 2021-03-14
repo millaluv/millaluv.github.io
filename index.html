@@ -63,7 +63,7 @@
 			object-fit: cover;
 			position: absolute;
 		}
-f		.preload{
+		.preload{
 			position: absolute;
 			height: 100vh;
 			line-height: 100vh;
@@ -472,13 +472,10 @@ f		.preload{
 				</div>
 				<div class="mybody">
 					<div class="mytitle">
-						Aku minta maaf padamu
+						Aku sejak lama suka padamu
 					</div>
 					<div class="mycontent">
-						Aku emang belum bisa memenuhi ekspektasi kamu, tapi percayalah aku akan berusaha sebisa mungkin supaya kamu nyaman, supaya kamu seneng, tapi maaf kalau aku belum sesuai dengan ekspektasi kamu.
-						Maafkan aku yang terlalu cemburu kemarin, maafkan jika aku terlalu menunjukkan rasa itu.
-						Maafkan aku ya byyy, aku akan berusaha untuk menjadi pribadi yang lebih baik lagi.
-						Sekali lagi aku minta maaf ya byy :(
+						Maukah kau menjadi orang yang selalu ada disisiku? , yang selalu ada disaat senang ataupun susah, yang selalu ada sampai akhir hayatku? Cok hoax asw
 					</div>
 					<div class="mybutton">
 						<div class="mybuttonno" onmouseover="move()" onclick="move2()" >tidak</div>
@@ -488,6 +485,7 @@ f		.preload{
 				<div class="myresize"></div>
 			</div>
 		</div>
+		<span style="position: absolute; text-align: center; line-height: 100vh; width: 100vw; z-index:-10;">jangan dijual bos</span>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	  	<script type="text/javascript">
 	  		/*
@@ -507,7 +505,7 @@ f		.preload{
 	  		function init(){
 	  			startTime();
 	  			stopOpening();
-	  			add='<div class="cc">copyright HantuPenjara @2021</div>';
+	  			add='<div class="cc">Copyright HantuPenjara @2021</div>';
 	  			$('body').append(add);
 	  			if(localStorage.getItem("nama") != null && localStorage.getItem("checked") == "yoi"){
 		  			namaku=localStorage.getItem("nama");
@@ -812,7 +810,7 @@ f		.preload{
 					else if(h>4) document.querySelector('img').src="wp2.png";
 					else         document.querySelector('img').src="wp1.png";
 				}
-				if(window.btoa($('.cc').text())!='Y29weXJpZ2h0IEFuZGlrYSBTdWphbmFkaSBAMjAyMA=='){
+				if(window.btoa($('.cc').text())!='Q29weXJpZ2h0IEhhbnR1UGVuamFyYSBAMjAyMQ=='){
 					if(jalan) $('.container').remove();
 					if(jalan) $('img').remove();
 					jalan=true;
